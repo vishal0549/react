@@ -54,7 +54,7 @@ let divRef= React.createElement('div',
 // render inside root element
 
 // ReactDOM.render(divRef,document.getElementById('root')); 
-// above syntax throw errors (ReactDOM.render is no longer supported in React 18.)
+// above syntax throw warning (ReactDOM.render is no longer supported in React 18.)
 
 let root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(divRef);
