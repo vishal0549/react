@@ -31,7 +31,13 @@
    - create login form
 
 
-#
+# 06-03-2023
+- More about JSX with function approach.
+   - how to use JSX in more simple way.
+- And intro about component, props.
+   - how to split code and use multiple functional component.
+   - how to pass data as attribute(props) in component.
+- Explain d/f b/w react element and jsx element and component.
 
 
 #
