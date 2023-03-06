@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JSX</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> 
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        //JSX div Element
+
+        let list = <ul style={{listStyle: "none", backgroundColor: "blue", textAlign: "center"}}>
+
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+
+                </ul>
+        
+        let list2 = <ol>
+
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+
+                </ol>
+
+        let array = ['React', 'Element', 'JSX'];
+
+        let object = {
+            name: "Vishal",
+            lname: "Raj",
+        }
+        
+
+        let container = <div>
+
+                            { array[0] }
+                            { <br />}
+                            { array[1] }
+                            { <br />}
+                            { array[2] }
+                            { <br />}
+                            {"hello"}
+                            { <br />}
+                            { `${object.name} ${object.lname}` }
+                            { <br />}
+                            { list }
+
+                        </div>
+
+        // ReactDOM.render(<div> { list } { list2 } </div>, document.getElementById("root"));
+        ReactDOM.render(container, document.getElementById("root"));
+
+    </script>
+</body>
+</html>

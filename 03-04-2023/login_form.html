@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JSX</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> 
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+
+        let containerStyle = {
+            height: "100vh",
+            width: "100vw",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            margin: "auto",
+            boxSizing: "border-box",
+            fontFamily: "sans-serif"
+        }
+
+        let formContainer = {
+            height: "600px",
+            width: "700px",      
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            background: "rgb(18,165,91)",
+            background: "linear-gradient(90deg, rgba(18,165,91,1) 0%, rgba(18,165,122,0.9739062309265136) 35%)",            
+        }
+
+        let formStyle = {
+            backgroundColor: "white",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            textAlign: "center",
+            gap: "1rem",
+            height: "50%",
+            width: "40%",
+            padding: "30px",
+        }
+        
+
+        let container = <div style={ containerStyle }>
+                            <div style={ formContainer }>
+                                <form style={ formStyle }>
+                                    <h2 style={{margin: "0", fontWeight: "300"}}>LOGIN</h2>
+
+                                    <p 
+                                        style={{ margin: "0", fontSize: "16px", fontWeight: "50" }}
+                                    >
+                                        Please enter your credentials to login.
+                                    </p>
+
+                                    <input type="text" placeholder="username" 
+                                        style={
+                                            { 
+                                                padding: "15px", 
+                                                backgroundColor: "whitesmoke", 
+                                                border: "none", 
+                                                outline: "none"
+                                            }} 
+                                    />
+
+                                    <input type="text" placeholder="password" 
+                                        style={{ 
+                                            padding: "15px", 
+                                            backgroundColor: "whitesmoke", 
+                                            border: "none", 
+                                            outline: "none"
+                                        }}
+                                    />
+
+                                    <button 
+                                        style={{ 
+                                            margin: "0", 
+                                            padding: "15px", 
+                                            backgroundColor: "#12A55B", 
+                                            color: "white", 
+                                            border: "none", 
+                                            outline: "none"
+                                        }}
+                                    >
+                                        LOGIN
+                                    </button>
+
+                                    <p 
+                                        style={{
+                                            margin: "0", 
+                                            color: "lightgray"
+                                        }}
+                                    >
+                                        Not registered? <span 
+                                                            style={{ 
+                                                                color: "#12A55B", 
+                                                                fontSize: "12px", 
+                                                                fontWeight: "200"
+                                                            }}>Create an account
+                                                        </span>
+                                    </p>
+
+                                </form>    
+                            </div>
+                        </div>
+
+        ReactDOM.render(container, document.getElementById("root"));
+
+    </script>
+</body>
+</html>
