@@ -39,8 +39,10 @@
    - how to pass data as attribute(props) in component.
 - Explain d/f b/w react element and jsx element and component.
 
-
-#
+# 07-03-2023
+- More about functiona component approach.
+   - How to reuse / Rendering component.
+   - expain functional component approach with help of simple home page example
 
 
 #
