@@ -49,9 +49,7 @@
    how to create our project with cra
    ex: npx create-react-app <project_name>;
    - d/f b/t npx & npm. why we use npx instead of npm.
-   - To start our application use - npm start
-
-   9870339229 - rajat sir
+   - To start our application use - npm start  
 
 
 #
