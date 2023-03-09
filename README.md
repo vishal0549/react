@@ -42,10 +42,16 @@
 # 07-03-2023
 - More about functiona component approach.
    - How to reuse / Rendering component.
-   - expain functional component approach with help of simple home page example
+   - expain functional component approach with help of simple home page example.
 
+# 09-03-2023
+- Explain about CRA(create--react-app)
+   how to create our project with cra
+   ex: npx create-react-app <project_name>;
+   - d/f b/t npx & npm. why we use npx instead of npm.
+   - To start our application use - npm start
 
-#
+   9870339229 - rajat sir
 
 
 #
