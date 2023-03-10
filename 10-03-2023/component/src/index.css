@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  height: 3rem;
+  border: 2px solid black;
+}
+
+.main {
+  height: 85vh;
+  border: 2px solid yellow;
+  display: flex;
+}
+
+.aside {
+  width: 15%;
+  border: 2px solid red;
+}
+
+.content {
+  width: 70%;
+  border: 2px solid blue;
+}
+
+
+.footer {
+  height: 4rem;
+  border: 2px solid black;
+}
