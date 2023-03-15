@@ -49,13 +49,32 @@
    how to create our project with cra
    ex: npx create-react-app <project_name>;
    - d/f b/t npx & npm. why we use npx instead of npm.
-   - To start our application use - npm start  
+   - To start our application use - npm start
+
+# 10-03-2023
+- more practice of component.
+
+## further reading
+- npm & npx
+
+- task : make a video where u explain some topic
+   - D/f btw npm & npx
+   - d/f btw React Element & React Component
+   - How to create React Element
+      - with example
+
+# 11-03-2023
+- Explain about props
+   - how sending data through props.
 
 
-#
+# 13-03-2023
+- Explain about fetch and promise concept.
+   - how fetch data from api.
 
+# 14-03-2023
+- Explain state(useState hook).
+   - make a counter app.
 
-#
-
-
-#
+# 15-03-2023
+-  more about useState hook and explain fetch data through api with axios in react
